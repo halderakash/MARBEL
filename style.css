@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&display=swap');
+
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-section{
+   background-color: #E5E5E5 !important;
+}
+.navbar-brand{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar-nav li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-nav li:hover a{
+    color: #3AC2A7 !important;
+}
+
+.banner-section{
+    background: url(img/banner.png);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-section h4{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+.banner-section h5{
+    color: #A8A8A8;
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+}
+.banner-section a{
+    display: inline-block;
+}
+.banner-section button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #3F8DBF;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0px black inset,0 -7px #3678A2 inset, 0px 0 blue inset, 0px 0 green inset;
+}
+
+.service-section span{
+    margin-bottom: 10px;
+}
+
+.service-section .img-icon-1{
+    height: 100px;
+    width: 100px;
+    background: url(img/S-bg-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.service-section img{
+    transform: translateY(70%);
+}
+.service-section .img-icon-2 img{
+    transform: translateY(100%);
+}
+.service-section .img-icon-4 img{
+    transform: translateY(190%);
+}
+.service-section .img-icon-2{
+    height: 100px;
+    width: 100px;
+    background: url(img/S-bg-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.service-section .img-icon-3{
+    height: 100px;
+    width: 100px;
+    background: url(img/S-bg-3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.service-section .img-icon-4{
+    height: 100px;
+    width: 100px;
+    background: url(img/S-bg-4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.service-section h6{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+.service-section p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+.hr-line{
+    height: 2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.port-sec h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.port-sec h5{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 18px;
+}
+.port-sec h6{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.port-sec p{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.text-sec{
+    background-color: #EFEFEF;
+}
+.text-sec h1{
+    font-size: 100px;
+    font-family:sans-serif;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #DCDCDC;
+}
+.text-sec h6{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 20px;
+    color: #C2C2C2;
+    margin:0 20%;
+}
+footer{
+    background-color: #000;
+}
+footer p, i, h6{
+    color: #898989;
+}
+footer h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #616161
+}
+footer p{
+    margin-left: 10px;
+}
+.popular-post{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+.p-date{
+  padding-top: 0 !important;
+  margin-left: 0 !important;
+  font-size: 12px;
+}
+.about-us p{
+    margin-left: 0 !important;
+}
+footer .hr-line{
+    background-color: #393939 !important;
+}
+.copyright-status{
+    color: #898989;
+    font-size: 14px;
+}
